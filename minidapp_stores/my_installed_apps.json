@@ -1,7 +1,0 @@
-{
-  "name": "My Installed Apps",
-  "description": "Store containing all my installed MiniDapps",
-  "version": "1.0",
-  "manifest_version": 2,
-  "dapps": []
-}
