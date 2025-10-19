@@ -1,0 +1,44 @@
+[project]
+name = "minima-mcp"
+version = "0.1.0"
+description = "Model Context Protocol server for Minima blockchain"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Minima MCP Contributors" }
+]
+keywords = ["mcp", "minima", "blockchain", "ai", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "mcp>=1.0.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+minima-mcp = "minima_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_backend"
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

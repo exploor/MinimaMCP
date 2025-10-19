@@ -1,0 +1,23 @@
+{
+  "name": "My Node Apps Store",
+  "description": "All my installed MiniDapps plus some custom additions",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "https://my-site.com/game.mds.zip",
+      "name": "My Custom Game",
+      "description": "A blockchain game I developed",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://my-site.com/game-icon.png"
+    },
+    {
+      "file": "https://my-site.com/defi.mds.zip",
+      "name": "DeFi Dashboard",
+      "description": "Personal finance tracking on blockchain",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    }
+  ]
+}

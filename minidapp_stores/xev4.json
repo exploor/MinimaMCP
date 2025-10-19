@@ -1,0 +1,40 @@
+{
+  "name": "xev4",
+  "description": "xev4 - Complete collection of blockchain MiniDapps",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "https://minima.global/explorer.mds.zip",
+      "name": "Block Explorer",
+      "description": "Explore blockchain transactions and blocks",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://minima.global/explorer-icon.png"
+    },
+    {
+      "file": "https://minima.global/token-creator.mds.zip",
+      "name": "Token Creator",
+      "description": "Create and manage custom tokens on Minima",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://minima.global/token-icon.png"
+    },
+    {
+      "file": "https://minima.global/wallet.mds.zip",
+      "name": "Wallet Manager",
+      "description": "Manage your Minima addresses and balances",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://minima.global/wallet-icon.png"
+    },
+    {
+      "file": "https://minima.global/contracts.mds.zip",
+      "name": "Contract Studio",
+      "description": "Build and deploy smart contracts",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://minima.global/contract-icon.png"
+    }
+  ]
+}

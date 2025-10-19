@@ -1,0 +1,7 @@
+{
+  "name": "Test Store",
+  "description": "A test MiniDapp store created via MCP",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": []
+}

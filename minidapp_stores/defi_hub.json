@@ -1,0 +1,22 @@
+{
+  "name": "DeFi Hub",
+  "description": "Best DeFi applications on Minima",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "https://minima.global/dex.mds.zip",
+      "name": "DEX",
+      "description": "Decentralized exchange for Minima tokens",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "https://minima.global/lending.mds.zip",
+      "name": "Lending Protocol",
+      "description": "Lend and borrow Minima tokens",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    }
+  ]
+}

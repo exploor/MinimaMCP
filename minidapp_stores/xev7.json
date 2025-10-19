@@ -1,0 +1,50 @@
+{
+  "name": "xev7",
+  "description": "xev7 - Complete collection of all available MiniDapp files",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "http://127.0.0.1:8080/Debug_Store.mds.zip",
+      "name": "Debug Store",
+      "description": "MiniDapp for debugging and testing store functionality",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "http://127.0.0.1:8080/Debug_Install_Store.mds.zip",
+      "name": "Debug Install Store",
+      "description": "MiniDapp for testing installation processes",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "http://127.0.0.1:8080/Test_Store.mds.zip",
+      "name": "Test Store",
+      "description": "Basic test MiniDapp with essential features",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "http://127.0.0.1:8080/Final_Test_Store.mds.zip",
+      "name": "Final Test Store",
+      "description": "Production-ready MiniDapp with full functionality",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "http://127.0.0.1:8080/Path_Fix_Test_Store.mds.zip",
+      "name": "Path Fix Test Store",
+      "description": "MiniDapp with path fixes for better compatibility",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    },
+    {
+      "file": "http://127.0.0.1:8080/Test_Store_2.mds.zip",
+      "name": "Test Store 2",
+      "description": "Alternative test MiniDapp with different features",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025"
+    }
+  ]
+}

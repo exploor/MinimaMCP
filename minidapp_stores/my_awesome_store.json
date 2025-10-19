@@ -1,0 +1,25 @@
+{
+  "name": "My Awesome Store",
+  "description": "A collection of amazing MiniDapps for the Minima ecosystem",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "https://example.com/script-ide.minidapp",
+      "name": "Script IDE",
+      "description": "Powerful integrated development environment for Minima smart contracts",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://example.com/script-ide-icon.png",
+      "repository_url": "https://github.com/example/script-ide"
+    },
+    {
+      "file": "https://example.com/block-explorer.minidapp",
+      "name": "Block Explorer",
+      "description": "Explore Minima blockchain transactions and blocks",
+      "version": "1.0.0",
+      "date": "Oct 18, 2025",
+      "icon": "https://example.com/block-explorer-icon.png"
+    }
+  ]
+}

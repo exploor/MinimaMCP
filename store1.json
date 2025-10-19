@@ -1,0 +1,44 @@
+{
+  "name": "store1",
+  "description": "MiniDapp Store - Browse, search, and install MiniDapps",
+  "banner": "https://minima.global/images/banner.png",
+  "icon": "https://minima.global/images/store-icon.png",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": [
+    {
+      "file": "https://minima.global/minidapps/script-ide.minidapp",
+      "icon": "https://minima.global/images/script-ide-icon.png",
+      "name": "Script IDE",
+      "date": "Oct 18, 2025",
+      "description": "Minima Script IDE for developing smart contracts",
+      "repository_url": "https://github.com/minima-global/ScriptIDE",
+      "version": "1.0.0",
+      "about": "A powerful integrated development environment for writing and testing Minima smart contracts with KISSVM syntax highlighting and debugging tools.",
+      "screenshots": [
+        "https://minima.global/images/script-ide-1.png",
+        "https://minima.global/images/script-ide-2.png"
+      ],
+      "release_notes": "# Script IDE v1.0.0\n\n- Initial release\n- KISSVM syntax highlighting\n- Contract compilation\n- Test execution environment",
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "Oct 18, 2025",
+          "release_notes": "# Initial Release\nFirst version of the Script IDE"
+        }
+      ]
+    },
+    {
+      "file": "https://minima.global/minidapps/block-explorer.minidapp",
+      "icon": "https://minima.global/images/block-explorer-icon.png",
+      "name": "Block Explorer",
+      "date": "Oct 18, 2025",
+      "description": "Explore Minima blockchain transactions and blocks",
+      "version": "1.0.0",
+      "about": "A comprehensive block explorer for the Minima blockchain, allowing users to search transactions, view block details, and monitor network activity.",
+      "screenshots": null,
+      "update": null,
+      "history": null
+    }
+  ]
+}

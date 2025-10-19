@@ -1,0 +1,7 @@
+{
+  "name": "store1",
+  "description": "MiniDapp Store - Browse, search, and install MiniDapps",
+  "version": "1.0",
+  "manifest_version": 2,
+  "dapps": []
+}
